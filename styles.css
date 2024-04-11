@@ -2,28 +2,29 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212;
+    color: #fff;
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1200px;
     margin: auto;
     padding: 0 20px;
 }
 
 header {
-    background-color: #333;
+    background-color: #007bff;
     padding: 20px 0;
     text-align: center;
-    color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
     margin: 0;
     padding: 0;
-    font-size: 36px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #fff;
 }
 
 nav ul {
@@ -53,8 +54,23 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #007bff;
     padding: 20px 0;
     text-align: center;
     color: #fff;
+}
+
+button {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bbd;
 }
