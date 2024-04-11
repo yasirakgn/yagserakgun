@@ -2,8 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    color: #fff;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .container {
@@ -13,19 +13,17 @@ body {
 }
 
 header {
-    background-color: #ff0000; /* Kırmızı */
+    background-color: #333;
     padding: 20px 0;
     text-align: center;
+    color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    width: 100%;
 }
 
 header h1 {
     margin: 0;
     padding: 0;
-    font-size: 48px;
-    letter-spacing: 2px;
-    color: #fff;
+    font-size: 36px;
 }
 
 nav ul {
@@ -46,22 +44,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #121212;
-    background-color: #fff;
-    padding: 10px 20px;
-    border-radius: 20px;
+    color: #00bcd4;
 }
 
 .content {
     padding: 50px 0;
-    width: 100%;
     text-align: center;
 }
 
 footer {
-    background-color: #ff0000; /* Kırmızı */
+    background-color: #333;
     padding: 20px 0;
     text-align: center;
     color: #fff;
-    width: 100%;
 }
