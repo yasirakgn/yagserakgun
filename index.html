@@ -4,53 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mühendislik ve Teknoloji</title>
-    <style>
-        /* Temel CSS stilleri buraya eklenebilir */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 960px;
-            margin: auto;
-            padding: 20px;
-        }
-        /* Diğer stillendirme buraya eklenebilir */
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Mühendislik ve Teknoloji</h1>
+    <div class="container">
+        <h1>Mühendislik ve Teknoloji</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Haberler</a></li>
+                <li><a href="#">Makaleler</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
-<div class="container">
-    <h2>Hoş Geldiniz!</h2>
-    <p>Bu web sitesi, mühendislik ve teknoloji alanında güncel bilgiler, haberler ve rehberler sunmaktadır.</p>
-    <h3>En Son Haberler</h3>
-    <ul>
-        <li><a href="#">Yeni Teknoloji Ürünleri Tanıtıldı</a></li>
-        <li><a href="#">Mühendislikte Son Gelişmeler</a></li>
-        <li><a href="#">Yapay Zeka ve Makine Öğrenmesi Haberleri</a></li>
-    </ul>
-    <h3>İçerik Kategorileri</h3>
-    <ul>
-        <li><a href="#">Makine Mühendisliği</a></li>
-        <li><a href="#">Yazılım Geliştirme</a></li>
-        <li><a href="#">Elektronik ve Telekomünikasyon</a></li>
-    </ul>
-    <footer>
+<section class="content">
+    <div class="container">
+        <h2>Hoş Geldiniz!</h2>
+        <p>Bu web sitesi, mühendislik ve teknoloji alanında güncel bilgiler, haberler ve rehberler sunmaktadır.</p>
+        <h3>En Son Haberler</h3>
+        <ul>
+            <li><a href="#">Yeni Teknoloji Ürünleri Tanıtıldı</a></li>
+            <li><a href="#">Mühendislikte Son Gelişmeler</a></li>
+            <li><a href="#">Yapay Zeka ve Makine Öğrenmesi Haberleri</a></li>
+        </ul>
+        <h3>İçerik Kategorileri</h3>
+        <ul>
+            <li><a href="#">Makine Mühendisliği</a></li>
+            <li><a href="#">Yazılım Geliştirme</a></li>
+            <li><a href="#">Elektronik ve Telekomünikasyon</a></li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
         <p>&copy; 2024 Mühendislik ve Teknoloji</p>
-    </footer>
-</div>
+    </div>
+</footer>
 
 </body>
 </html>
