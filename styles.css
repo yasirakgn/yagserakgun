@@ -17,6 +17,7 @@ header {
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 header h1 {
@@ -53,6 +54,8 @@ nav ul li a:hover {
 
 .content {
     padding: 50px 0;
+    width: 100%;
+    text-align: center;
 }
 
 footer {
@@ -60,9 +63,5 @@ footer {
     padding: 20px 0;
     text-align: center;
     color: #fff;
-}
-
-footer p {
-    margin: 0;
-    padding: 0;
+    width: 100%;
 }
