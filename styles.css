@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #00bcd4;
+    background-color: #ff0000; /* Kırmızı */
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -59,7 +59,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #00bcd4;
+    background-color: #ff0000; /* Kırmızı */
     padding: 20px 0;
     text-align: center;
     color: #fff;
