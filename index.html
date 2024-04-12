@@ -1,47 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yagser AKGUN</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Harika Web Sitesi</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
-    <h1>Hoş Geldiniz!</h1>
+    <div class="container"> <h1><a href="#">Şirket Adı</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#">Anasayfa</a></li>
+          <li><a href="#">Hakkımızda</a></li>
+          <li><a href="#">Hizmetlerimiz</a></li>
+          <li><a href="#">İletişim</a></li>
+          <li class="dropdown">
+            <a href="#">Ürünler</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Ürün 1</a></li>
+              <li><a href="#">Ürün 2</a></li>
+              <li><a href="#">Ürün 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#">Anasayfa</a></li>
-      <li><a href="#">Hakkımızda</a></li>
-      <li><a href="#">İletişim</a></li>
-    </ul>
-  </nav>
-
-  <div class="container">
-    <section id="anasayfa">
-      <h2>Anasayfa</h2>
-      <p>Bu bir anasayfa içeriği örneğidir. Buraya proje veya web sitenizin ana içeriğini ekleyebilirsiniz.</p>
+  <main>
+    <section class="hero"> <div class="container">
+        <h2>Başlık</h2>
+        <p>Bu web sitesinin ana metnidir. Ürünlerinizi, hizmetlerinizi veya sağladığınız bilgileri açıklamak için bu alanı kullanabilirsiniz.</p>
+        <a href="#" class="button">Daha Fazla Bilgi Edinin</a>
+      </div>
     </section>
-    
-    <form>
-      <div class="form-group">
-        <label for="name">İsim:</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div class="form-group">
-        <label for="email">E-posta:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="password">Şifre:</label>
-        <input type="password" id="password" name="password" required>
-      </div>
-      <button class="button" type="submit">Gönder</button>
-    </form>
-  </div>
 
-</body>
-</html>
+    <section class="features"> <div class="container">
+        <h2>Özelliklerimiz</h2>
+        <div class="row"> <div class="col-4"> <i class="fas fa-cog"></i> <h3>Başlık 1</h3>
+            <p>Açıklama 1</p>
+          </div>
+          <div class="col-4">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Başlık 2</h3>
+            <p>Açıklama 2</p>
+          </div>
+          <div class="col-4">
+            <i class="fas fa-chart-line"></i>
+            <h3>Başlık 3</h3>
+            <p>Açıklama 3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials"> <div class="container">
+        <h2>Müşterilerimiz Ne Diyor?</h2>
+        <div class="slider"> <div class="slide">
+            <p>"Ürünleriniz harika! Kullanımı çok kolay ve müşteri hizmetleriniz mükemmel." - Müşteri 1</p>
+          </div>
+          <div class="slide">
+            <p>"Bu hizmeti kullanmaya başladığımdan beri işim çok daha verimli hale geldi. Teşekkürler!" - Müşteri 2</p>
+          </div>
+          <div class="slide">
+            <p>"Şirketinizle çalışmayı seviyorum. Her zaman profesyonelsiniz ve işinizi zamanında tamamlıyorsunuz." - Müşteri 3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="call-to-action"> <div class="container">
+        <h2>Hemen Başlayın!</h2>
+        <p>Ücretsiz deneme sürümünüzü bugün başlatın ve farkı hissedin.</p>
+        <a href="#" class="button button-large">Ücretsiz Deneme Sürümüne Başlayın</a>
