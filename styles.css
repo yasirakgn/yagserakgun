@@ -1,24 +1,78 @@
-/* HTML elementlerinin genel stilini sıfırla */
+/* Genel stil ayarları */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body için genel stil */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   color: #333;
 }
 
-/* Başlık için stil */
-h1 {
-  font-size: 24px;
-  color: #007bff;
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
 }
 
-/* Buton için stil */
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+nav ul li a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#anasayfa {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -27,24 +81,9 @@ h1 {
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .button:hover {
   background-color: #0056b3;
-}
-
-/* Input alanı için stil */
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-/* Form alanı için stil */
-.form-group {
-  margin-bottom: 20px;
 }
