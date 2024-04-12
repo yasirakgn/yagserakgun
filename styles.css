@@ -85,7 +85,7 @@ header nav .dropdown:hover .dropdown-content {
 /* Hero Bölümü */
 
 .hero {
-  background-image: url('hero-bg.jpg'); /* Kendi arka plan resminizi ekleyin */
+  background-image: url('home.jpg'); /* Kendi arka plan resminizi ekleyin */
   background-size: cover;
   background-position: center;
   text-align: center;
