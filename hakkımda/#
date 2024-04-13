@@ -1,1 +1,54 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yagser Akgun Tasarımı</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Yagser Akgun</h1>
+                <ul>
+                    <li><a href="">Anasayfa</a></li>
+                    <li><a href="hakkımda/#">Hakkımda</a></li>
+                    <li><a href="#">Portfolyo</a></li>
+                    <li><a href="#">İletişim</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Hakkımda</h2>
+            <p>Merhaba, ben Yagser Akgun. Yazılım geliştirme ve tasarım konularında deneyimli bir profesyonelim. Müşteri odaklı çalışmayı ve yaratıcı çözümler üretmeyi seviyorum.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolyo</h2>
+            <div class="portfolio-item">
+                <img src="image1.jpg" alt="Proje 1">
+                <h3>Proje 1</h3>
+                <p>Açıklama 1</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="image2.jpg" alt="Proje 2">
+                <h3>Proje 2</h3>
+                <p>Açıklama 2</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yagser Akgun. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>
