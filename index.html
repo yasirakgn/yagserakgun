@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------- TItle ---------->
+    <title>Your Name</title>
+    <!-----------Favicon----->
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <!-------------------Css file------------>
+    <link rel="stylesheet" href="style.css">
+    <!------------Icons cd from Boxicons----------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+</head>
+
+<body>
+    <!-----------------Navigation Bar----------->
+    <header>
+        <a href="#" class="logo">Your Name</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li>
+                <a href="#hero">
+                    <div class="mini-flex">
+                        <i class='mfc bx bxs-home'></i>
+                        Home
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    <div class="mini-flex">
+                        <i class='mfc bx bxs-cog'></i>
+                        Skill
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#porfolio">
+                    <div class="mini-flex">
+                        <i class='mfc bx bx-male'></i>
+                        Portfolio
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#xp">
+                    <div class="mini-flex">
+                        <i class='mfc bx bxs-briefcase'></i>
+                        Experience
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div>
+            <label for="checkbox" class="label" for="checkbox">
+                <i class='bx bxs-moon'></i>
+                <i class='bx bxs-sun'></i>
+                <div class='ball'> </div>
+            </label>
+            <input type="checkbox" class="checkbox" id="checkbox" name="checkbox" />
+        </div>
+    </header>
+
+    <!-----------------------Home section------------------>
+    <section class="hero" id="hero">
+        <div class="hero-image">
+            <div id="animation-container"></div>
+        </div>
+        <div class="hero-text">
+            <h1>About Me</h1>
+            <h2>Your Job Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente tempora iste, provident facere
+                doloribus illum iusto ratione quia reprehenderit dolore officiis minima quod repudiandae aliquam
+                pariatur voluptatem nihil, accusamus doloremque.</p>
+            <a href="#porfolio" class="btn">My Work</a>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class=" skills" id="skills">
+        <div class="skills-heading">Skills</div>
+        <div class="skill-container">
+            <div class="skill-item" id="active">
+                <h3>Skill 1</h3>
+                <div class="line-break"></div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+            </div>
+            <div class="skill-item" id="active">
+                <h3>Skill 2</h3>
+                <div class="line-break"></div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="skill-item" id="active">
+                <h3>Skill 3</h3>
+                <div class="line-break"></div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="skill-item" id="active">
+                <h3>Skill 4</h3>
+                <div class="line-break"></div>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="skill-item" id="active">
+                <h3>Skill 5</h3>
+                <div class="line-break"></div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="skill-item" id="active">
+                <h3>Skill 6</h3>
+                <div class="line-break"></div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="porfolio">
+        <div class="xp-heading">Portfolio</div>
+        <div class="portfolio-container">
+            <div class="portfolio-item" id="active">
+                <div class="portfolio-image1">
+                </div>
+                <div class="work-detail">
+                    <div class="gok"><img src="/images/icondemo.png" alt=""></div>
+                    <div class="gok"><img src="/images/icondemo.png" alt=""></div>
+                    <div class="gok"><img src="/images/icondemo.png" alt=""></div>
+                    <!--popup-->
+                    <button data-modal-target="#modal" class="popupbutton popup pop btn">Details</button>
+                    <!---modalopen-->
+                    <div class="modal modalpopup">
+                        <div class="modal-header">
+                            <h3 class="popup-title">Case Study</h3>
+                            <button data-close-button class="close-button">
+                                <i class='bx bx-x'></i>
+                            </button>
+                        </div>
+                        <div class="modal-content">
+                            <div class="popup-images">
+                                <img class="popup-img-mega" src="/images/demo.jpg" alt="">
+                                <img class="popup-img-mega" src="/images/demo.jpg" alt="">
+                            </div>
+                            <div class="popup-case-study">
+                                <p class="popup-details">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+                </div>
+            </div>
+            <div class="portfolio-item" id="active">
+                <div class="portfolio-image2">
+                </div>
+                <div class="work-detail">
+                    <div class="gok"><img src="/images/icondemo.png" alt=""> </div>
+                    <div class="gok"><img src="/images/icondemo.png" alt=""></div>
+                    <div class="gok"><img src="/images/icondemo.png" alt=""> </div>
+                    <!--popup-->
+                    <button data-modal-target="#modal" class="popupbutton popup pop btn">Details</button>
+                    <!---modalopen-->
+                    <div class="modalpopup modal">
+                        <div class="modal-header">
+                            <h3 class="popup-title">Case Study</h3>
+                            <button data-close-button class="close-button"><i class='bx bx-x'></i></button>
+                        </div>
+                        <div class="modal-content">
+                            <div class="popup-images">
+                                <img class="popup-img-mega" src="/images/demo.jpg" alt="">
+                                <img class="popup-img-mega" src="/images/demo.jpg" alt="">
+                            </div>
+                            <div class="popup-case-study">
+                                <p class="popup-details">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#">Link</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+                    <!---popup-close-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- XP -->
+    <section class="xp" id="xp">
+        <div class="xp-heading">Experience</div>
+        <div class="xp-container">
+            <div class="xp-item">
+                <h3 class="jok">Job Title</h3>
+                <div class="xp-mini-flex">
+                    <p class="mok">Resignation</p>
+                    <p class="year">Year</p>
+                </div>
+                <div class="line-break"></div>
+                <div class="dok"><i class='bx bxs-circle dot'></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="xp-item">
+                <h3 class="jok">Job Title</h3>
+                <div class="xp-mini-flex">
+                    <p class="mok">Resignation</p>
+                    <p class="year">Year</p>
+                </div>
+                <div class="line-break"></div>
+                <div class="dok"><i class='bx bxs-circle dot'></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <div class="copyright">
+        <p class="footer-text">Copyright Rights | Your Name</p>
+    </div>
+
+    <!------------ Main javascript file------------>
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+
+</html>
