@@ -21,11 +21,13 @@ window.onscroll = () => {
 }
 
 // Dark Mode//
-const checkbox = document.getElementById('checkbox');
-
 checkbox.addEventListener('change', () => {
-    document.body.classList.toggle('active');
-})
+  if (checkbox.checked) {
+    body.classList.add('active'); // Dark mode aktif
+  } else {
+    body.classList.remove('active'); // Dark mode kapalı
+  }
+});
 
 var animation = bodymovin.loadAnimation({
     container: document.getElementById('animation-container'),
